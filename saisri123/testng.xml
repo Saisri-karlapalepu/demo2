@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="dummyTestPackage1.DemoTest"/>
+      <class name="dummyTestPackage1.AddingProductTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
