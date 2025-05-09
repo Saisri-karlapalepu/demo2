@@ -10,7 +10,7 @@ public class AddingProductTest extends BaseConfiguration {
 	@Test
 	public void AddingProductToTheCart() {
 		Reporter.log("AddingProductToTheCart",true);
-		
+		driver.findElement(By.xpath("//a[@data-product-id='12']")).click();
 		
 	}
 }
